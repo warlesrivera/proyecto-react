@@ -24,7 +24,7 @@ export const LoginScreenCopy = () => {
   const [formValues, handleInputChange] = useForm({
     email: "warlesrivera123@gmail.com",
     password: "123456",
-  });
+  });    
 
   //destructuracion de el hook form
   const { email, password } = formValues;
